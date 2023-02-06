@@ -23,7 +23,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: r19KrfaYGvh1Rr9L0vM7f8Z7
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: marciocamollez
 
       - name: Deploy storybook
