@@ -13,4 +13,11 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = "/rocketseat-react-projeto05-design-system/";
+    }
+
+    return config;
+  },
 };
