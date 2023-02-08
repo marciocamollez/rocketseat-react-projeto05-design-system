@@ -1,0 +1,2 @@
+import{A as t}from"./index.659909b4.js";import"./index.5e4437a1.js";import"./iframe.96e533cb.js";import"./index.b1287352.js";import"./jsx-runtime.a3227850.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/marciocamollez.png",alt:"Marcio Camollez"},argTypes:{src:{control:{type:"text"}}}},m={},l={args:{src:void 0}},p=["Primary","WithFallback"];export{m as Primary,l as WithFallback,p as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.0c4f4de7.js.map
